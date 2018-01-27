@@ -1,9 +1,9 @@
 import Redis from 'ioredis';
 //const Redis = require('ioredis');
+import Strings from './strings';
+import Hashes from './hashes';
 
 const redis = new Redis();
 
-redis.set('name', 'Emmanuel', 'EX', 5);
-redis.get('name', (err, result) => {
-    console.log(result);
-})
+Strings(redis);
+Hashes(redis);
