@@ -1,0 +1,27 @@
+{
+  "name": "redis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cqcmdwym/redis.git"
+  },
+  "author": "cookie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cqcmdwym/redis/issues"
+  },
+  "homepage": "https://github.com/cqcmdwym/redis#readme",
+  "dependencies": {
+    "babel-preset-stage-0": "^6.24.1",
+    "ioredis": "^3.2.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
